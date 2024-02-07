@@ -30,3 +30,14 @@ let {numPlanets, yearNeptuneDiscovered} = facts;
 //console.log(numbers);// returns [10, 30, 20]
 
 //ES2015 Object Destructuring//
+const obj = {
+    numbers: {
+        a: 1,
+        b: 2
+    }
+}
+const {a,b} = obj.numbers;
+
+//ES2015 Array Swap//
+const arr = [1,2];
+[arr[0], arr[1]] = [arr[1], arr[0]]
