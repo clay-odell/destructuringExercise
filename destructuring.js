@@ -25,3 +25,8 @@ let {numPlanets, yearNeptuneDiscovered} = facts;
 //console.log(raindrops);//returns Raindrops on roses
 //console.log(whiskers);//returns Whiskers on kittens
 //console.log(aFewOfMyFavoriteThings);//returns ['Bright copper kettles', 'warm wool mittens', Brown paper packages tied up with strings']
+
+//Array Desctructuring 3//
+//console.log(numbers);// returns [10, 30, 20]
+
+//ES2015 Object Destructuring//
