@@ -41,3 +41,10 @@ const {a,b} = obj.numbers;
 //ES2015 Array Swap//
 const arr = [1,2];
 [arr[0], arr[1]] = [arr[1], arr[0]]
+
+//raceResults()//
+const raceResults = ([first, second, third,...rest]) => ({first, second, third, rest});
+
+const answer = raceResults(['Tom', 'Margaret', 'Allison', 'David', 'Pierre']);
+
+
